@@ -85,8 +85,8 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 860. 染色法判定二分图](https://www.acwing.com/activity/content/problem/content/926/) | 已完成 |
+| [AcWing 860. 染色法判定二分图](../problems/graph/926.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 860. 染色法判定二分图](https://www.acwing.com/activity/content/code/content/9882747/)
+- [AcWing 860. 染色法判定二分图](https://www.acwing.com/activity/content/code/content/9882747/) · 我的提交

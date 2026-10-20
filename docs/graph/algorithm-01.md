@@ -81,8 +81,8 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 853. 有边数限制的最短路](https://www.acwing.com/activity/content/problem/content/922/) | 已完成 |
+| [AcWing 853. 有边数限制的最短路](../problems/graph/922.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 853. 有边数限制的最短路](https://www.acwing.com/activity/content/code/content/9883613/)
+- [AcWing 853. 有边数限制的最短路](https://www.acwing.com/activity/content/code/content/9883613/) · 我的提交

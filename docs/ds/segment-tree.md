@@ -109,7 +109,6 @@ int main()
 }
 ```
 
-最通用的区间数据结构，带 lazy 标记后区间加、区间和都是 O(log n)。
 
 ## 思路
 
@@ -137,14 +136,14 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 1275. 最大数](https://www.acwing.com/activity/content/problem/content/1607/) | 已完成 |
-| [AcWing 245. 你能回答这些问题吗](https://www.acwing.com/activity/content/problem/content/1608/) | 已完成 |
-| [AcWing 246. 区间最大公约数](https://www.acwing.com/activity/content/problem/content/1609/) | 已完成 |
-| [AcWing 243. 一个简单的整数问题2](https://www.acwing.com/activity/content/problem/content/1610/) | 已完成 |
-| [AcWing 247. 亚特兰蒂斯](https://www.acwing.com/activity/content/problem/content/1611/) | 未完成 |
-| [AcWing 1277. 维护序列](https://www.acwing.com/activity/content/problem/content/1612/) | 已完成 |
+| [AcWing 1275. 最大数](../problems/ds/1607.md) | 已完成 |
+| [AcWing 245. 你能回答这些问题吗](../problems/ds/1608.md) | 已完成 |
+| [AcWing 246. 区间最大公约数](../problems/ds/1609.md) | 已完成 |
+| [AcWing 243. 一个简单的整数问题2](../problems/ds/1610.md) | 已完成 |
+| [AcWing 247. 亚特兰蒂斯](../problems/ds/1611.md) | 未完成 |
+| [AcWing 1277. 维护序列](../problems/ds/1612.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 1275. 最大数](https://www.acwing.com/activity/content/code/content/9870512/)
+- [AcWing 1275. 最大数](https://www.acwing.com/activity/content/code/content/9870512/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

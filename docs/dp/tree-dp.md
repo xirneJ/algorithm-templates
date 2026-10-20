@@ -79,7 +79,6 @@ int main()
 }
 ```
 
-在树上做状态 DP，dp[u][0/1] 表示不选 / 选当前节点时，子树能取得的最优值。
 
 ## 思路
 
@@ -107,16 +106,15 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 285. 没有上司的舞会](https://www.acwing.com/activity/content/problem/content/1012/) | 已完成 |
-| [AcWing 1072. 树的最长路径](https://www.acwing.com/activity/content/problem/content/1302/) | 已完成 |
-| [AcWing 1073. 树的中心](https://www.acwing.com/activity/content/problem/content/1303/) | 已完成 |
-| [AcWing 1075. 数字转换](https://www.acwing.com/activity/content/problem/content/1304/) | 已完成 |
-| [AcWing 1074. 二叉苹果树](https://www.acwing.com/activity/content/problem/content/1305/) | 已完成 |
-| [AcWing 323. 战略游戏](https://www.acwing.com/activity/content/problem/content/1306/) | 已完成 |
-| [AcWing 1077. 皇宫看守](https://www.acwing.com/activity/content/problem/content/1307/) | 已完成 |
+| [AcWing 285. 没有上司的舞会](../problems/dp/1012.md) | 已完成 |
+| [AcWing 1072. 树的最长路径](../problems/dp/1302.md) | 已完成 |
+| [AcWing 1073. 树的中心](../problems/dp/1303.md) | 已完成 |
+| [AcWing 1075. 数字转换](../problems/dp/1304.md) | 已完成 |
+| [AcWing 1074. 二叉苹果树](../problems/dp/1305.md) | 已完成 |
+| [AcWing 323. 战略游戏](../problems/dp/1306.md) | 已完成 |
+| [AcWing 1077. 皇宫看守](../problems/dp/1307.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 285. 没有上司的舞会](https://www.acwing.com/activity/content/code/content/9810807/)
-- [AcWing 1072. 树的最长路径](https://www.acwing.com/activity/content/code/content/9959143/)
+- [AcWing 285. 没有上司的舞会](https://www.acwing.com/activity/content/code/content/9810807/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

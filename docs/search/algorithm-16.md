@@ -8,14 +8,92 @@ tags:
 
 # 双向DFS
 
+## 模板
+
+```cpp
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+using namespace std;
+
+typedef long long LL;
+
+const int N = 1 << 24;
+
+int n, m, k;
+int g[50], weights[N];
+int cnt = 0;
+int ans;
+
+void dfs(int u, int s)
+{
+    if (u == k)
+    {
+        weights[cnt ++ ] = s;
+        return;
+    }
+
+    if ((LL)s + g[u] <= m) dfs(u + 1, s + g[u]);
+    dfs(u + 1, s);
+}
+
+void dfs2(int u, int s)
+{
+    if (u == n)
+    {
+        int l = 0, r = cnt - 1;
+        while (l < r)
+        {
+            int mid = l + r + 1 >> 1;
+            if (weights[mid] + (LL)s <= m) l = mid;
+            else r = mid - 1;
+        }
+        if (weights[l] + (LL)s <= m) ans = max(ans, weights[l] + s);
+
+        return;
+    }
+
+    if ((LL)s + g[u] <= m) dfs2(u + 1, s + g[u]);
+    dfs2(u + 1, s);
+}
+
+int main()
+{
+    cin >> m >> n;
+    for (int i = 0; i < n; i ++ ) cin >> g[i];
+
+    sort(g, g + n);
+    reverse(g, g + n);
+
+    k = n / 2;  // 防止 n = 1时，出现死循环
+    dfs(0, 0);
+
+    sort(weights, weights + cnt);
+    int t = 1;
+    for (int i = 1; i < cnt; i ++ )
+        if (weights[i] != weights[i - 1])
+            weights[t ++ ] = weights[i];
+    cnt = t;
+
+    dfs2(k, 0);
+
+    cout << ans << endl;
+
+    return 0;
+}
+```
+
 本页按算法归档，收录 1 道相关题目。
 
 **算法分组：** 双向DFS
-
-提交记录中暂未找到该算法的代码，模板暂空。
 
 ## 对应题目
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 171. 送礼物](https://www.acwing.com/activity/content/problem/content/1490/) | 未完成 |
+| [AcWing 171. 送礼物](../problems/search/1490.md) | 未完成 |
+
+## 提交来源
+
+- [AcWing 171. 送礼物](https://www.acwing.com/activity/content/code/content/136981/) · yxc 相关代码

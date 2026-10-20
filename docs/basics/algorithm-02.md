@@ -54,10 +54,10 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 799. 最长连续不重复子序列](https://www.acwing.com/activity/content/problem/content/833/) | 已完成 |
-| [AcWing 800. 数组元素的目标和](https://www.acwing.com/activity/content/problem/content/834/) | 已完成 |
-| [AcWing 2816. 判断子序列](https://www.acwing.com/activity/content/problem/content/2981/) | 已完成 |
+| [AcWing 799. 最长连续不重复子序列](../problems/basics/833.md) | 已完成 |
+| [AcWing 800. 数组元素的目标和](../problems/basics/834.md) | 已完成 |
+| [AcWing 2816. 判断子序列](../problems/basics/2981.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 799. 最长连续不重复子序列](https://www.acwing.com/activity/content/code/content/9838214/)
+- [AcWing 799. 最长连续不重复子序列](https://www.acwing.com/activity/content/code/content/9838214/) · 我的提交

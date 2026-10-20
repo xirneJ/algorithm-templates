@@ -59,7 +59,6 @@ int main()
 }
 ```
 
-贪心 + 二分求最长上升子序列长度，tails 维护每个长度下的最小结尾。
 
 ## 思路
 
@@ -87,16 +86,16 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 1017. 怪盗基德的滑翔翼](https://www.acwing.com/activity/content/problem/content/1259/) | 已完成 |
-| [AcWing 1014. 登山](https://www.acwing.com/activity/content/problem/content/1260/) | 已完成 |
-| [AcWing 482. 合唱队形](https://www.acwing.com/activity/content/problem/content/1261/) | 已完成 |
-| [AcWing 1012. 友好城市](https://www.acwing.com/activity/content/problem/content/1262/) | 已完成 |
-| [AcWing 1016. 最大上升子序列和](https://www.acwing.com/activity/content/problem/content/1263/) | 已完成 |
-| [AcWing 1010. 拦截导弹](https://www.acwing.com/activity/content/problem/content/1264/) | 已完成 |
-| [AcWing 187. 导弹防御系统](https://www.acwing.com/activity/content/problem/content/1265/) | 已完成 |
-| [AcWing 272. 最长公共上升子序列](https://www.acwing.com/activity/content/problem/content/1266/) | 已完成 |
+| [AcWing 1017. 怪盗基德的滑翔翼](../problems/dp/1259.md) | 已完成 |
+| [AcWing 1014. 登山](../problems/dp/1260.md) | 已完成 |
+| [AcWing 482. 合唱队形](../problems/dp/1261.md) | 已完成 |
+| [AcWing 1012. 友好城市](../problems/dp/1262.md) | 已完成 |
+| [AcWing 1016. 最大上升子序列和](../problems/dp/1263.md) | 已完成 |
+| [AcWing 1010. 拦截导弹](../problems/dp/1264.md) | 已完成 |
+| [AcWing 187. 导弹防御系统](../problems/dp/1265.md) | 已完成 |
+| [AcWing 272. 最长公共上升子序列](../problems/dp/1266.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 1017. 怪盗基德的滑翔翼](https://www.acwing.com/activity/content/code/content/9903577/)
+- [AcWing 1017. 怪盗基德的滑翔翼](https://www.acwing.com/activity/content/code/content/9903577/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

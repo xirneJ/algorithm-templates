@@ -75,7 +75,6 @@ int main()
 }
 ```
 
-逐个为左部点寻找增广路，求出二分图最大匹配。
 
 ## 思路
 
@@ -103,9 +102,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 861. 二分图的最大匹配](https://www.acwing.com/activity/content/problem/content/927/) | 已完成 |
+| [AcWing 861. 二分图的最大匹配](../problems/graph/927.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 861. 二分图的最大匹配](https://www.acwing.com/activity/content/code/content/9882848/)
+- [AcWing 861. 二分图的最大匹配](https://www.acwing.com/activity/content/code/content/9882848/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

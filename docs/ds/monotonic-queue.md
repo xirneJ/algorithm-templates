@@ -70,7 +70,6 @@ int main()
 }
 ```
 
-用双端队列维护窗口内的单调序列，O(n) 求出每个滑动窗口的最值。
 
 ## 思路
 
@@ -98,9 +97,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 154. 滑动窗口](https://www.acwing.com/activity/content/problem/content/868/) | 已完成 |
+| [AcWing 154. 滑动窗口](../problems/ds/868.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 154. 滑动窗口](https://www.acwing.com/activity/content/code/content/9842770/)
+- [AcWing 154. 滑动窗口](https://www.acwing.com/activity/content/code/content/9842770/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

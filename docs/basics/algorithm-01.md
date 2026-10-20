@@ -78,11 +78,11 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 791. 高精度加法](https://www.acwing.com/activity/content/problem/content/825/) | 已完成 |
-| [AcWing 792. 高精度减法](https://www.acwing.com/activity/content/problem/content/826/) | 已完成 |
-| [AcWing 793. 高精度乘法](https://www.acwing.com/activity/content/problem/content/827/) | 已完成 |
-| [AcWing 794. 高精度除法](https://www.acwing.com/activity/content/problem/content/828/) | 已完成 |
+| [AcWing 791. 高精度加法](../problems/basics/825.md) | 已完成 |
+| [AcWing 792. 高精度减法](../problems/basics/826.md) | 已完成 |
+| [AcWing 793. 高精度乘法](../problems/basics/827.md) | 已完成 |
+| [AcWing 794. 高精度除法](../problems/basics/828.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 791. 高精度加法](https://www.acwing.com/activity/content/code/content/9812829/)
+- [AcWing 791. 高精度加法](https://www.acwing.com/activity/content/code/content/9812829/) · 我的提交

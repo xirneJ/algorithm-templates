@@ -46,7 +46,6 @@ int main()
 }
 ```
 
-求 ax + by = gcd(a, b) 的一组整数解，也用来求模逆元和解线性同余方程。
 
 ## 思路
 
@@ -74,10 +73,10 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 877. 扩展欧几里得算法](https://www.acwing.com/activity/content/problem/content/946/) | 已完成 |
-| [AcWing 878. 线性同余方程](https://www.acwing.com/activity/content/problem/content/947/) | 未完成 |
+| [AcWing 877. 扩展欧几里得算法](../problems/math/946.md) | 已完成 |
+| [AcWing 878. 线性同余方程](../problems/math/947.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 877. 扩展欧几里得算法](https://www.acwing.com/activity/content/code/content/9815627/)
+- [AcWing 877. 扩展欧几里得算法](https://www.acwing.com/activity/content/code/content/9815627/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

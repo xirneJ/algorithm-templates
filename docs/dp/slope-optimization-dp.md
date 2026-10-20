@@ -55,11 +55,11 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 300. 任务安排1](https://www.acwing.com/activity/content/problem/content/1464/) | 已完成 |
-| [AcWing 301. 任务安排2](https://www.acwing.com/activity/content/problem/content/1465/) | 未完成 |
-| [AcWing 302. 任务安排3](https://www.acwing.com/activity/content/problem/content/1466/) | 未完成 |
-| [AcWing 303. 运输小猫](https://www.acwing.com/activity/content/problem/content/1467/) | 未完成 |
+| [AcWing 300. 任务安排1](../problems/dp/1464.md) | 已完成 |
+| [AcWing 301. 任务安排2](../problems/dp/1465.md) | 未完成 |
+| [AcWing 302. 任务安排3](../problems/dp/1466.md) | 未完成 |
+| [AcWing 303. 运输小猫](../problems/dp/1467.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 300. 任务安排1](https://www.acwing.com/activity/content/code/content/9973629/)
+- [AcWing 300. 任务安排1](https://www.acwing.com/activity/content/code/content/9973629/) · 我的提交

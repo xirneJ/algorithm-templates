@@ -75,7 +75,6 @@ int main()
 }
 ```
 
-支持单点修改、前缀查询，代码短、常数小，也能扩展成区间修改。
 
 ## 思路
 
@@ -103,12 +102,12 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 241. 楼兰图腾](https://www.acwing.com/activity/content/problem/content/1592/) | 已完成 |
-| [AcWing 242. 一个简单的整数问题](https://www.acwing.com/activity/content/problem/content/1593/) | 已完成 |
-| [AcWing 243. 一个简单的整数问题2](https://www.acwing.com/activity/content/problem/content/1594/) | 已完成 |
-| [AcWing 244. 谜一样的牛](https://www.acwing.com/activity/content/problem/content/1595/) | 已完成 |
+| [AcWing 241. 楼兰图腾](../problems/ds/1592.md) | 已完成 |
+| [AcWing 242. 一个简单的整数问题](../problems/ds/1593.md) | 已完成 |
+| [AcWing 243. 一个简单的整数问题2](../problems/ds/1594.md) | 已完成 |
+| [AcWing 244. 谜一样的牛](../problems/ds/1595.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 241. 楼兰图腾](https://www.acwing.com/activity/content/code/content/9880935/)
+- [AcWing 241. 楼兰图腾](https://www.acwing.com/activity/content/code/content/9880935/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

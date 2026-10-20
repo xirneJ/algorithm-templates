@@ -77,7 +77,6 @@ int main()
 }
 ```
 
-两种最常用的二分写法：查找第一个满足条件的位置，以及二分答案。
 
 ## 思路
 
@@ -105,13 +104,12 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 789. 数的范围](https://www.acwing.com/activity/content/problem/content/823/) | 已完成 |
-| [AcWing 790. 数的三次方根](https://www.acwing.com/activity/content/problem/content/824/) | 已完成 |
-| [AcWing 102. 最佳牛围栏](https://www.acwing.com/activity/content/problem/content/1790/) | 已完成 |
-| [AcWing 113. 特殊排序](https://www.acwing.com/activity/content/problem/content/1791/) | 未完成 |
+| [AcWing 789. 数的范围](../problems/binary-search/823.md) | 已完成 |
+| [AcWing 790. 数的三次方根](../problems/binary-search/824.md) | 已完成 |
+| [AcWing 102. 最佳牛围栏](../problems/binary-search/1790.md) | 已完成 |
+| [AcWing 113. 特殊排序](../problems/binary-search/1791.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 789. 数的范围](https://www.acwing.com/activity/content/code/content/9838761/)
-- [AcWing 102. 最佳牛围栏](https://www.acwing.com/activity/content/code/content/9889310/)
+- [AcWing 789. 数的范围](https://www.acwing.com/activity/content/code/content/9838761/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

@@ -69,7 +69,6 @@ int main()
 }
 ```
 
-多源最短路，三层循环、代码极短，适合 n 只有几百的图。
 
 ## 思路
 
@@ -97,13 +96,13 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 854. Floyd求最短路](https://www.acwing.com/activity/content/problem/content/923/) | 已完成 |
-| [AcWing 1125. 牛的旅行](https://www.acwing.com/activity/content/problem/content/1507/) | 未完成 |
-| [AcWing 343. 排序](https://www.acwing.com/activity/content/problem/content/1508/) | 未完成 |
-| [AcWing 344. 观光之旅](https://www.acwing.com/activity/content/problem/content/1509/) | 未完成 |
-| [AcWing 345. 牛站](https://www.acwing.com/activity/content/problem/content/1510/) | 未完成 |
+| [AcWing 854. Floyd求最短路](../problems/graph/923.md) | 已完成 |
+| [AcWing 1125. 牛的旅行](../problems/graph/1507.md) | 未完成 |
+| [AcWing 343. 排序](../problems/graph/1508.md) | 未完成 |
+| [AcWing 344. 观光之旅](../problems/graph/1509.md) | 未完成 |
+| [AcWing 345. 牛站](../problems/graph/1510.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 854. Floyd求最短路](https://www.acwing.com/activity/content/code/content/9841766/)
+- [AcWing 854. Floyd求最短路](https://www.acwing.com/activity/content/code/content/9841766/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

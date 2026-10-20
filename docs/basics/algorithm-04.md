@@ -74,8 +74,8 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 803. 区间合并](https://www.acwing.com/activity/content/problem/content/837/) | 已完成 |
+| [AcWing 803. 区间合并](../problems/basics/837.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 803. 区间合并](https://www.acwing.com/activity/content/code/content/9838187/)
+- [AcWing 803. 区间合并](https://www.acwing.com/activity/content/code/content/9838187/) · 我的提交

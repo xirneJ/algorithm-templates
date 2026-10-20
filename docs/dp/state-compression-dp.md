@@ -78,15 +78,14 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 291. 蒙德里安的梦想](https://www.acwing.com/activity/content/problem/content/1010/) | 已完成 |
-| [AcWing 91. 最短Hamilton路径](https://www.acwing.com/activity/content/problem/content/1011/) | 已完成 |
-| [AcWing 1064. 小国王](https://www.acwing.com/activity/content/problem/content/1292/) | 已完成 |
-| [AcWing 327. 玉米田](https://www.acwing.com/activity/content/problem/content/1293/) | 已完成 |
-| [AcWing 292. 炮兵阵地](https://www.acwing.com/activity/content/problem/content/1294/) | 已完成 |
-| [AcWing 524. 愤怒的小鸟](https://www.acwing.com/activity/content/problem/content/1295/) | 已完成 |
-| [AcWing 529. 宝藏](https://www.acwing.com/activity/content/problem/content/1296/) | 未完成 |
+| [AcWing 291. 蒙德里安的梦想](../problems/dp/1010.md) | 已完成 |
+| [AcWing 91. 最短Hamilton路径](../problems/dp/1011.md) | 已完成 |
+| [AcWing 1064. 小国王](../problems/dp/1292.md) | 已完成 |
+| [AcWing 327. 玉米田](../problems/dp/1293.md) | 已完成 |
+| [AcWing 292. 炮兵阵地](../problems/dp/1294.md) | 已完成 |
+| [AcWing 524. 愤怒的小鸟](../problems/dp/1295.md) | 已完成 |
+| [AcWing 529. 宝藏](../problems/dp/1296.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 291. 蒙德里安的梦想](https://www.acwing.com/activity/content/code/content/9810491/)
-- [AcWing 1064. 小国王](https://www.acwing.com/activity/content/code/content/9914003/)
+- [AcWing 291. 蒙德里安的梦想](https://www.acwing.com/activity/content/code/content/9810491/) · 我的提交

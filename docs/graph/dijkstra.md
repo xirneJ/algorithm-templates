@@ -103,7 +103,6 @@ int main()
 }
 ```
 
-单源最短路：边权非负时，用优先队列每次取出当前距离最小的点。
 
 ## 思路
 
@@ -131,10 +130,10 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 849. Dijkstra求最短路 I](https://www.acwing.com/activity/content/problem/content/918/) | 已完成 |
-| [AcWing 850. Dijkstra求最短路 II](https://www.acwing.com/activity/content/problem/content/919/) | 已完成 |
+| [AcWing 849. Dijkstra求最短路 I](../problems/graph/918.md) | 已完成 |
+| [AcWing 850. Dijkstra求最短路 II](../problems/graph/919.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 849. Dijkstra求最短路 I](https://www.acwing.com/activity/content/code/content/9809524/)
+- [AcWing 849. Dijkstra求最短路 I](https://www.acwing.com/activity/content/code/content/9809524/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

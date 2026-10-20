@@ -72,7 +72,6 @@ int main()
 }
 ```
 
-按字符逐层建树，支持字符串插入与查询，复杂度只和字符串长度有关。
 
 ## 思路
 
@@ -100,10 +99,10 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 835. Trie字符串统计](https://www.acwing.com/activity/content/problem/content/883/) | 已完成 |
-| [AcWing 143. 最大异或对](https://www.acwing.com/activity/content/problem/content/884/) | 已完成 |
+| [AcWing 835. Trie字符串统计](../problems/string/883.md) | 已完成 |
+| [AcWing 143. 最大异或对](../problems/string/884.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 835. Trie字符串统计](https://www.acwing.com/activity/content/code/content/9864600/)
+- [AcWing 835. Trie字符串统计](https://www.acwing.com/activity/content/code/content/9864600/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

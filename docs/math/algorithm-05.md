@@ -68,10 +68,10 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 890. 能被整除的数](https://www.acwing.com/activity/content/problem/content/960/) | 已完成 |
-| [AcWing 214. Devu和鲜花](https://www.acwing.com/activity/content/problem/content/1777/) | 未完成 |
-| [AcWing 215. 破译密码](https://www.acwing.com/activity/content/problem/content/1778/) | 未完成 |
+| [AcWing 890. 能被整除的数](../problems/math/960.md) | 已完成 |
+| [AcWing 214. Devu和鲜花](../problems/math/1777.md) | 未完成 |
+| [AcWing 215. 破译密码](../problems/math/1778.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 890. 能被整除的数](https://www.acwing.com/activity/content/code/content/9819107/)
+- [AcWing 890. 能被整除的数](https://www.acwing.com/activity/content/code/content/9819107/) · 我的提交

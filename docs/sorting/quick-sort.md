@@ -63,7 +63,6 @@ int main()
 }
 ```
 
-分治排序的经典写法，原地排序、常数小，是手写排序时的首选。
 
 ## 思路
 
@@ -91,10 +90,10 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 785. 快速排序](https://www.acwing.com/activity/content/problem/content/819/) | 已完成 |
-| [AcWing 786. 第k个数](https://www.acwing.com/activity/content/problem/content/820/) | 已完成 |
+| [AcWing 785. 快速排序](../problems/sorting/819.md) | 已完成 |
+| [AcWing 786. 第k个数](../problems/sorting/820.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 785. 快速排序](https://www.acwing.com/activity/content/code/content/9837724/)
+- [AcWing 785. 快速排序](https://www.acwing.com/activity/content/code/content/9837724/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

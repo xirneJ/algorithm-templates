@@ -75,8 +75,8 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 846. 树的重心](https://www.acwing.com/activity/content/problem/content/909/) | 已完成 |
+| [AcWing 846. 树的重心](../problems/search/909.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 846. 树的重心](https://www.acwing.com/activity/content/code/content/9864763/)
+- [AcWing 846. 树的重心](https://www.acwing.com/activity/content/code/content/9864763/) · 我的提交

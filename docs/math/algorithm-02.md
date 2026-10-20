@@ -52,11 +52,11 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 873. 欧拉函数](https://www.acwing.com/activity/content/problem/content/942/) | 已完成 |
-| [AcWing 874. 筛法求欧拉函数](https://www.acwing.com/activity/content/problem/content/943/) | 已完成 |
-| [AcWing 201. 可见的点](https://www.acwing.com/activity/content/problem/content/1742/) | 未完成 |
-| [AcWing 220. 最大公约数](https://www.acwing.com/activity/content/problem/content/1743/) | 未完成 |
+| [AcWing 873. 欧拉函数](../problems/math/942.md) | 已完成 |
+| [AcWing 874. 筛法求欧拉函数](../problems/math/943.md) | 已完成 |
+| [AcWing 201. 可见的点](../problems/math/1742.md) | 未完成 |
+| [AcWing 220. 最大公约数](../problems/math/1743.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 873. 欧拉函数](https://www.acwing.com/activity/content/code/content/9815514/)
+- [AcWing 873. 欧拉函数](https://www.acwing.com/activity/content/code/content/9815514/) · 我的提交

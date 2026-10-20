@@ -62,8 +62,8 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 829. 模拟队列](https://www.acwing.com/activity/content/problem/content/866/) | 已完成 |
+| [AcWing 829. 模拟队列](../problems/ds/866.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 829. 模拟队列](https://www.acwing.com/activity/content/code/content/9840391/)
+- [AcWing 829. 模拟队列](https://www.acwing.com/activity/content/code/content/9840391/) · 我的提交

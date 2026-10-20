@@ -83,8 +83,8 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 847. 图中点的层次](https://www.acwing.com/activity/content/problem/content/910/) | 已完成 |
+| [AcWing 847. 图中点的层次](../problems/search/910.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 847. 图中点的层次](https://www.acwing.com/activity/content/code/content/9949479/)
+- [AcWing 847. 图中点的层次](https://www.acwing.com/activity/content/code/content/9949479/) · 我的提交

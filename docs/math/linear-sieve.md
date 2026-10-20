@@ -54,7 +54,6 @@ int main()
 }
 ```
 
-每个合数只被它的最小质因子筛掉一次，O(n) 求出 1..n 内的所有质数。
 
 ## 思路
 
@@ -82,14 +81,14 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 866. 试除法判定质数](https://www.acwing.com/activity/content/problem/content/935/) | 已完成 |
-| [AcWing 867. 分解质因数](https://www.acwing.com/activity/content/problem/content/936/) | 已完成 |
-| [AcWing 868. 筛质数](https://www.acwing.com/activity/content/problem/content/937/) | 已完成 |
-| [AcWing 1292. 哥德巴赫猜想](https://www.acwing.com/activity/content/problem/content/1730/) | 未完成 |
-| [AcWing 1293. 夏洛克和他的女朋友](https://www.acwing.com/activity/content/problem/content/1731/) | 未完成 |
-| [AcWing 196. 质数距离](https://www.acwing.com/activity/content/problem/content/1732/) | 未完成 |
+| [AcWing 866. 试除法判定质数](../problems/math/935.md) | 已完成 |
+| [AcWing 867. 分解质因数](../problems/math/936.md) | 已完成 |
+| [AcWing 868. 筛质数](../problems/math/937.md) | 已完成 |
+| [AcWing 1292. 哥德巴赫猜想](../problems/math/1730.md) | 未完成 |
+| [AcWing 1293. 夏洛克和他的女朋友](../problems/math/1731.md) | 未完成 |
+| [AcWing 196. 质数距离](../problems/math/1732.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 866. 试除法判定质数](https://www.acwing.com/activity/content/code/content/9812653/)
+- [AcWing 866. 试除法判定质数](https://www.acwing.com/activity/content/code/content/9812653/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

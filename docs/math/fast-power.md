@@ -44,7 +44,6 @@ int main()
 }
 ```
 
-把指数按二进制拆分，O(log b) 计算 a^b mod m，是数论题的基础。
 
 ## 思路
 
@@ -72,12 +71,12 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 875. 快速幂](https://www.acwing.com/activity/content/problem/content/944/) | 已完成 |
-| [AcWing 876. 快速幂求逆元](https://www.acwing.com/activity/content/problem/content/945/) | 已完成 |
-| [AcWing 1289. 序列的第k个数](https://www.acwing.com/activity/content/problem/content/1734/) | 未完成 |
-| [AcWing 1290. 越狱](https://www.acwing.com/activity/content/problem/content/1735/) | 未完成 |
+| [AcWing 875. 快速幂](../problems/math/944.md) | 已完成 |
+| [AcWing 876. 快速幂求逆元](../problems/math/945.md) | 已完成 |
+| [AcWing 1289. 序列的第k个数](../problems/math/1734.md) | 未完成 |
+| [AcWing 1290. 越狱](../problems/math/1735.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 875. 快速幂](https://www.acwing.com/activity/content/code/content/9815507/)
+- [AcWing 875. 快速幂](https://www.acwing.com/activity/content/code/content/9815507/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

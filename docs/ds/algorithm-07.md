@@ -100,9 +100,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 840. 模拟散列表](https://www.acwing.com/activity/content/problem/content/890/) | 已完成 |
-| [AcWing 841. 字符串哈希](https://www.acwing.com/activity/content/problem/content/891/) | 未完成 |
+| [AcWing 840. 模拟散列表](../problems/ds/890.md) | 已完成 |
+| [AcWing 841. 字符串哈希](../problems/ds/891.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 840. 模拟散列表](https://www.acwing.com/activity/content/code/content/9854933/)
+- [AcWing 840. 模拟散列表](https://www.acwing.com/activity/content/code/content/9854933/) · 我的提交

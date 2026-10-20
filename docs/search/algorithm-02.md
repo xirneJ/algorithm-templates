@@ -74,9 +74,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 844. 走迷宫](https://www.acwing.com/activity/content/problem/content/907/) | 已完成 |
-| [AcWing 845. 八数码](https://www.acwing.com/activity/content/problem/content/908/) | 未完成 |
+| [AcWing 844. 走迷宫](../problems/search/907.md) | 已完成 |
+| [AcWing 845. 八数码](../problems/search/908.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 844. 走迷宫](https://www.acwing.com/activity/content/code/content/9983736/)
+- [AcWing 844. 走迷宫](https://www.acwing.com/activity/content/code/content/9983736/) · 我的提交

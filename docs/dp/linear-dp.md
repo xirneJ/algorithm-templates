@@ -52,13 +52,13 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 898. 数字三角形](https://www.acwing.com/activity/content/problem/content/1002/) | 已完成 |
-| [AcWing 895. 最长上升子序列](https://www.acwing.com/activity/content/problem/content/1003/) | 已完成 |
-| [AcWing 896. 最长上升子序列 II](https://www.acwing.com/activity/content/problem/content/1004/) | 未完成 |
-| [AcWing 897. 最长公共子序列](https://www.acwing.com/activity/content/problem/content/1005/) | 已完成 |
-| [AcWing 902. 最短编辑距离](https://www.acwing.com/activity/content/problem/content/1094/) | 已完成 |
-| [AcWing 899. 编辑距离](https://www.acwing.com/activity/content/problem/content/1006/) | 未完成 |
+| [AcWing 898. 数字三角形](../problems/dp/1002.md) | 已完成 |
+| [AcWing 895. 最长上升子序列](../problems/dp/1003.md) | 已完成 |
+| [AcWing 896. 最长上升子序列 II](../problems/dp/1004.md) | 未完成 |
+| [AcWing 897. 最长公共子序列](../problems/dp/1005.md) | 已完成 |
+| [AcWing 902. 最短编辑距离](../problems/dp/1094.md) | 已完成 |
+| [AcWing 899. 编辑距离](../problems/dp/1006.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 898. 数字三角形](https://www.acwing.com/activity/content/code/content/9889262/)
+- [AcWing 898. 数字三角形](https://www.acwing.com/activity/content/code/content/9889262/) · 我的提交

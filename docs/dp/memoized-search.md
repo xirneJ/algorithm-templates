@@ -74,8 +74,8 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 901. 滑雪](https://www.acwing.com/activity/content/problem/content/1013/) | 已完成 |
+| [AcWing 901. 滑雪](../problems/dp/1013.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 901. 滑雪](https://www.acwing.com/activity/content/code/content/9894846/)
+- [AcWing 901. 滑雪](https://www.acwing.com/activity/content/code/content/9894846/) · 我的提交

@@ -85,8 +85,8 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 858. Prim算法求最小生成树](https://www.acwing.com/activity/content/problem/content/924/) | 已完成 |
+| [AcWing 858. Prim算法求最小生成树](../problems/graph/924.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 858. Prim算法求最小生成树](https://www.acwing.com/activity/content/code/content/9882403/)
+- [AcWing 858. Prim算法求最小生成树](https://www.acwing.com/activity/content/code/content/9882403/) · 我的提交

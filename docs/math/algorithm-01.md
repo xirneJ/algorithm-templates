@@ -62,11 +62,11 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 869. 试除法求约数](https://www.acwing.com/activity/content/problem/content/938/) | 已完成 |
-| [AcWing 870. 约数个数](https://www.acwing.com/activity/content/problem/content/939/) | 已完成 |
-| [AcWing 871. 约数之和](https://www.acwing.com/activity/content/problem/content/940/) | 已完成 |
-| [AcWing 872. 最大公约数](https://www.acwing.com/activity/content/problem/content/941/) | 已完成 |
+| [AcWing 869. 试除法求约数](../problems/math/938.md) | 已完成 |
+| [AcWing 870. 约数个数](../problems/math/939.md) | 已完成 |
+| [AcWing 871. 约数之和](../problems/math/940.md) | 已完成 |
+| [AcWing 872. 最大公约数](../problems/math/941.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 869. 试除法求约数](https://www.acwing.com/activity/content/code/content/9812736/)
+- [AcWing 869. 试除法求约数](https://www.acwing.com/activity/content/code/content/9812736/) · 我的提交

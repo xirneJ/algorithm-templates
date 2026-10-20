@@ -10,6 +10,99 @@ tags:
 
 # 倍增求 LCA
 
+## 模板
+
+```cpp
+#include <cstdio>
+#include <cstring>
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+
+const int N = 40010, M = N * 2;
+
+int n, m;
+int h[N], e[M], ne[M], idx;
+int depth[N], fa[N][16];
+int q[N];
+
+void add(int a, int b)
+{
+    e[idx] = b, ne[idx] = h[a], h[a] = idx ++ ;
+}
+
+void bfs(int root)
+{
+    memset(depth, 0x3f, sizeof depth);
+    depth[0] = 0, depth[root] = 1;
+    int hh = 0, tt = 0;
+    q[0] = root;
+    while (hh <= tt)
+    {
+        int t = q[hh ++ ];
+        for (int i = h[t]; ~i; i = ne[i])
+        {
+            int j = e[i];
+            if (depth[j] > depth[t] + 1)
+            {
+                depth[j] = depth[t] + 1;
+                q[ ++ tt] = j;
+                fa[j][0] = t;
+                for (int k = 1; k <= 15; k ++ )
+                    fa[j][k] = fa[fa[j][k - 1]][k - 1];
+            }
+        }
+    }
+}
+
+int lca(int a, int b)
+{
+    if (depth[a] < depth[b]) swap(a, b);
+    for (int k = 15; k >= 0; k -- )
+        if (depth[fa[a][k]] >= depth[b])
+            a = fa[a][k];
+    if (a == b) return a;
+    for (int k = 15; k >= 0; k -- )
+        if (fa[a][k] != fa[b][k])
+        {
+            a = fa[a][k];
+            b = fa[b][k];
+        }
+    return fa[a][0];
+}
+
+int main()
+{
+    scanf("%d", &n);
+    int root = 0;
+    memset(h, -1, sizeof h);
+
+    for (int i = 0; i < n; i ++ )
+    {
+        int a, b;
+        scanf("%d%d", &a, &b);
+        if (b == -1) root = a;
+        else add(a, b), add(b, a);
+    }
+
+    bfs(root);
+
+    scanf("%d", &m);
+    while (m -- )
+    {
+        int a, b;
+        scanf("%d%d", &a, &b);
+        int p = lca(a, b);
+        if (p == a) puts("1");
+        else if (p == b) puts("2");
+        else puts("0");
+    }
+
+    return 0;
+}
+```
+
 预处理每个点向上 2^k 级祖先，快速求树上两点的最近公共祖先。
 
 ## 思路
@@ -38,10 +131,12 @@ tags:
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 1172. 祖孙询问](https://www.acwing.com/activity/content/problem/content/1537/) | 未完成 |
-| [AcWing 1171. 距离](https://www.acwing.com/activity/content/problem/content/1538/) | 未完成 |
-| [AcWing 356. 次小生成树](https://www.acwing.com/activity/content/problem/content/1539/) | 未完成 |
-| [AcWing 352. 闇の連鎖](https://www.acwing.com/activity/content/problem/content/1540/) | 未完成 |
+| [AcWing 1172. 祖孙询问](../problems/graph/1537.md) | 未完成 |
+| [AcWing 1171. 距离](../problems/graph/1538.md) | 未完成 |
+| [AcWing 356. 次小生成树](../problems/graph/1539.md) | 未完成 |
+| [AcWing 352. 闇の連鎖](../problems/graph/1540.md) | 未完成 |
 
-提交记录中暂未找到该算法的代码，模板暂空。
+## 提交来源
+
+- [AcWing 1172. 祖孙询问](https://www.acwing.com/activity/content/code/content/154772/) · yxc 相关代码
 <!-- ALGORITHM_SUBMISSION_END -->

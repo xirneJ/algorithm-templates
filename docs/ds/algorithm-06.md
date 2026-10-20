@@ -48,9 +48,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 838. 堆排序](https://www.acwing.com/activity/content/problem/content/888/) | 已完成 |
-| [AcWing 839. 模拟堆](https://www.acwing.com/activity/content/problem/content/889/) | 已完成 |
+| [AcWing 838. 堆排序](../problems/ds/888.md) | 已完成 |
+| [AcWing 839. 模拟堆](../problems/ds/889.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 838. 堆排序](https://www.acwing.com/activity/content/code/content/9847136/)
+- [AcWing 838. 堆排序](https://www.acwing.com/activity/content/code/content/9847136/) · 我的提交

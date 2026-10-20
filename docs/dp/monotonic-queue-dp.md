@@ -58,13 +58,13 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 135. 最大子序和](https://www.acwing.com/activity/content/problem/content/1458/) | 已完成 |
-| [AcWing 1087. 修剪草坪](https://www.acwing.com/activity/content/problem/content/1459/) | 已完成 |
-| [AcWing 1088. 旅行问题](https://www.acwing.com/activity/content/problem/content/1460/) | 已完成 |
-| [AcWing 1089. 烽火传递](https://www.acwing.com/activity/content/problem/content/1461/) | 已完成 |
-| [AcWing 1090. 绿色通道](https://www.acwing.com/activity/content/problem/content/1462/) | 已完成 |
-| [AcWing 1091. 理想的正方形](https://www.acwing.com/activity/content/problem/content/1463/) | 已完成 |
+| [AcWing 135. 最大子序和](../problems/dp/1458.md) | 已完成 |
+| [AcWing 1087. 修剪草坪](../problems/dp/1459.md) | 已完成 |
+| [AcWing 1088. 旅行问题](../problems/dp/1460.md) | 已完成 |
+| [AcWing 1089. 烽火传递](../problems/dp/1461.md) | 已完成 |
+| [AcWing 1090. 绿色通道](../problems/dp/1462.md) | 已完成 |
+| [AcWing 1091. 理想的正方形](../problems/dp/1463.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 135. 最大子序和](https://www.acwing.com/activity/content/code/content/9964454/)
+- [AcWing 135. 最大子序和](https://www.acwing.com/activity/content/code/content/9964454/) · 我的提交

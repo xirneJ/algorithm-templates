@@ -112,7 +112,6 @@ int main()
 }
 ```
 
-把数值大但数量少的序列映射成 1..m 的排名，方便开数组、上树状数组。
 
 ## 思路
 
@@ -140,9 +139,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 802. 区间和](https://www.acwing.com/activity/content/problem/content/836/) | 已完成 |
+| [AcWing 802. 区间和](../problems/basics/836.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 802. 区间和](https://www.acwing.com/activity/content/code/content/9838159/)
+- [AcWing 802. 区间和](https://www.acwing.com/activity/content/code/content/9838159/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

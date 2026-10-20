@@ -101,9 +101,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 851. spfa求最短路](https://www.acwing.com/activity/content/problem/content/920/) | 已完成 |
-| [AcWing 852. spfa判断负环](https://www.acwing.com/activity/content/problem/content/921/) | 已完成 |
+| [AcWing 851. spfa求最短路](../problems/graph/920.md) | 已完成 |
+| [AcWing 852. spfa判断负环](../problems/graph/921.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 851. spfa求最短路](https://www.acwing.com/activity/content/code/content/9884648/)
+- [AcWing 851. spfa求最短路](https://www.acwing.com/activity/content/code/content/9884648/) · 我的提交

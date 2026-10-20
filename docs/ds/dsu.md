@@ -66,7 +66,6 @@ int main()
 }
 ```
 
-维护不相交集合，支持合并与连通性查询，路径压缩后几乎 O(1)。
 
 ## 思路
 
@@ -94,17 +93,16 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 836. 合并集合](https://www.acwing.com/activity/content/problem/content/885/) | 已完成 |
-| [AcWing 837. 连通块中点的数量](https://www.acwing.com/activity/content/problem/content/886/) | 已完成 |
-| [AcWing 240. 食物链](https://www.acwing.com/activity/content/problem/content/887/) | 已完成 |
-| [AcWing 1250. 格子游戏](https://www.acwing.com/activity/content/problem/content/1579/) | 已完成 |
-| [AcWing 1252. 搭配购买](https://www.acwing.com/activity/content/problem/content/1580/) | 已完成 |
-| [AcWing 237. 程序自动分析](https://www.acwing.com/activity/content/problem/content/1581/) | 已完成 |
-| [AcWing 239. 奇偶游戏](https://www.acwing.com/activity/content/problem/content/1582/) | 已完成 |
-| [AcWing 238. 银河英雄传说](https://www.acwing.com/activity/content/problem/content/1583/) | 已完成 |
+| [AcWing 836. 合并集合](../problems/ds/885.md) | 已完成 |
+| [AcWing 837. 连通块中点的数量](../problems/ds/886.md) | 已完成 |
+| [AcWing 240. 食物链](../problems/ds/887.md) | 已完成 |
+| [AcWing 1250. 格子游戏](../problems/ds/1579.md) | 已完成 |
+| [AcWing 1252. 搭配购买](../problems/ds/1580.md) | 已完成 |
+| [AcWing 237. 程序自动分析](../problems/ds/1581.md) | 已完成 |
+| [AcWing 239. 奇偶游戏](../problems/ds/1582.md) | 已完成 |
+| [AcWing 238. 银河英雄传说](../problems/ds/1583.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 836. 合并集合](https://www.acwing.com/activity/content/code/content/9842807/)
-- [AcWing 1250. 格子游戏](https://www.acwing.com/activity/content/code/content/9881491/)
+- [AcWing 836. 合并集合](https://www.acwing.com/activity/content/code/content/9842807/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

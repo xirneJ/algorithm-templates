@@ -63,9 +63,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 828. 模拟栈](https://www.acwing.com/activity/content/problem/content/865/) | 已完成 |
-| [AcWing 3302. 表达式求值](https://www.acwing.com/activity/content/problem/content/3648/) | 未完成 |
+| [AcWing 828. 模拟栈](../problems/ds/865.md) | 已完成 |
+| [AcWing 3302. 表达式求值](../problems/ds/3648.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 828. 模拟栈](https://www.acwing.com/activity/content/code/content/9840324/)
+- [AcWing 828. 模拟栈](https://www.acwing.com/activity/content/code/content/9840324/) · 我的提交

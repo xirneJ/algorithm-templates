@@ -89,15 +89,14 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 338. 计数问题](https://www.acwing.com/activity/content/problem/content/1009/) | 已完成 |
-| [AcWing 1081. 度的数量](https://www.acwing.com/activity/content/problem/content/1308/) | 未完成 |
-| [AcWing 1082. 数字游戏](https://www.acwing.com/activity/content/problem/content/1309/) | 已完成 |
-| [AcWing 1083. Windy数](https://www.acwing.com/activity/content/problem/content/1310/) | 已完成 |
-| [AcWing 1084. 数字游戏 II](https://www.acwing.com/activity/content/problem/content/1311/) | 已完成 |
-| [AcWing 1085. 不要62](https://www.acwing.com/activity/content/problem/content/1312/) | 已完成 |
-| [AcWing 1086. 恨7不成妻](https://www.acwing.com/activity/content/problem/content/1313/) | 未完成 |
+| [AcWing 338. 计数问题](../problems/dp/1009.md) | 已完成 |
+| [AcWing 1081. 度的数量](../problems/dp/1308.md) | 未完成 |
+| [AcWing 1082. 数字游戏](../problems/dp/1309.md) | 已完成 |
+| [AcWing 1083. Windy数](../problems/dp/1310.md) | 已完成 |
+| [AcWing 1084. 数字游戏 II](../problems/dp/1311.md) | 已完成 |
+| [AcWing 1085. 不要62](../problems/dp/1312.md) | 已完成 |
+| [AcWing 1086. 恨7不成妻](../problems/dp/1313.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 338. 计数问题](https://www.acwing.com/activity/content/code/content/9965101/)
-- [AcWing 1082. 数字游戏](https://www.acwing.com/activity/content/code/content/9965842/)
+- [AcWing 338. 计数问题](https://www.acwing.com/activity/content/code/content/9965101/) · 我的提交

@@ -48,12 +48,12 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 1049. 大盗阿福](https://www.acwing.com/activity/content/problem/content/1287/) | 已完成 |
-| [AcWing 1057. 股票买卖 IV](https://www.acwing.com/activity/content/problem/content/1288/) | 未完成 |
-| [AcWing 1058. 股票买卖 V](https://www.acwing.com/activity/content/problem/content/1289/) | 已完成 |
-| [AcWing 1052. 设计密码](https://www.acwing.com/activity/content/problem/content/1290/) | 未完成 |
-| [AcWing 1053. 修复DNA](https://www.acwing.com/activity/content/problem/content/1291/) | 未完成 |
+| [AcWing 1049. 大盗阿福](../problems/dp/1287.md) | 已完成 |
+| [AcWing 1057. 股票买卖 IV](../problems/dp/1288.md) | 未完成 |
+| [AcWing 1058. 股票买卖 V](../problems/dp/1289.md) | 已完成 |
+| [AcWing 1052. 设计密码](../problems/dp/1290.md) | 未完成 |
+| [AcWing 1053. 修复DNA](../problems/dp/1291.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 1049. 大盗阿福](https://www.acwing.com/activity/content/code/content/9910891/)
+- [AcWing 1049. 大盗阿福](https://www.acwing.com/activity/content/code/content/9910891/) · 我的提交

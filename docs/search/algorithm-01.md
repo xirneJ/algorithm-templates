@@ -58,9 +58,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 842. 排列数字](https://www.acwing.com/activity/content/problem/content/905/) | 已完成 |
-| [AcWing 843. n-皇后问题](https://www.acwing.com/activity/content/problem/content/906/) | 已完成 |
+| [AcWing 842. 排列数字](../problems/search/905.md) | 已完成 |
+| [AcWing 843. n-皇后问题](../problems/search/906.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 842. 排列数字](https://www.acwing.com/activity/content/code/content/9864641/)
+- [AcWing 842. 排列数字](https://www.acwing.com/activity/content/code/content/9864641/) · 我的提交

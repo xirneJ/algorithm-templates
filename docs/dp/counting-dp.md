@@ -52,8 +52,8 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 900. 整数划分](https://www.acwing.com/activity/content/problem/content/1008/) | 已完成 |
+| [AcWing 900. 整数划分](../problems/dp/1008.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 900. 整数划分](https://www.acwing.com/activity/content/code/content/9807866/)
+- [AcWing 900. 整数划分](https://www.acwing.com/activity/content/code/content/9807866/) · 我的提交

@@ -54,8 +54,8 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 830. 单调栈](https://www.acwing.com/activity/content/problem/content/867/) | 已完成 |
+| [AcWing 830. 单调栈](../problems/ds/867.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 830. 单调栈](https://www.acwing.com/activity/content/code/content/9841803/)
+- [AcWing 830. 单调栈](https://www.acwing.com/activity/content/code/content/9841803/) · 我的提交

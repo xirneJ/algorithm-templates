@@ -101,10 +101,10 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 95. 费解的开关](https://www.acwing.com/activity/content/problem/content/1785/) | 已完成 |
-| [AcWing 97. 约数之和](https://www.acwing.com/activity/content/problem/content/1786/) | 已完成 |
-| [AcWing 98. 分形之城](https://www.acwing.com/activity/content/problem/content/1787/) | 未完成 |
+| [AcWing 95. 费解的开关](../problems/basics/1785.md) | 已完成 |
+| [AcWing 97. 约数之和](../problems/basics/1786.md) | 已完成 |
+| [AcWing 98. 分形之城](../problems/basics/1787.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 95. 费解的开关](https://www.acwing.com/activity/content/code/content/9900045/)
+- [AcWing 95. 费解的开关](https://www.acwing.com/activity/content/code/content/9900045/) · 我的提交

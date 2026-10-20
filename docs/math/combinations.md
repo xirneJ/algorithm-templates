@@ -55,7 +55,6 @@ int main()
 }
 ```
 
-预处理阶乘和阶乘逆元，O(1) 查询 C(n, m)，要求模数为质数。
 
 ## 思路
 
@@ -83,13 +82,13 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 885. 求组合数 I](https://www.acwing.com/activity/content/problem/content/955/) | 已完成 |
-| [AcWing 886. 求组合数 II](https://www.acwing.com/activity/content/problem/content/956/) | 已完成 |
-| [AcWing 887. 求组合数 III](https://www.acwing.com/activity/content/problem/content/957/) | 已完成 |
-| [AcWing 888. 求组合数 IV](https://www.acwing.com/activity/content/problem/content/958/) | 已完成 |
-| [AcWing 889. 满足条件的01序列](https://www.acwing.com/activity/content/problem/content/959/) | 已完成 |
+| [AcWing 885. 求组合数 I](../problems/math/955.md) | 已完成 |
+| [AcWing 886. 求组合数 II](../problems/math/956.md) | 已完成 |
+| [AcWing 887. 求组合数 III](../problems/math/957.md) | 已完成 |
+| [AcWing 888. 求组合数 IV](../problems/math/958.md) | 已完成 |
+| [AcWing 889. 满足条件的01序列](../problems/math/959.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 885. 求组合数 I](https://www.acwing.com/activity/content/code/content/9816007/)
+- [AcWing 885. 求组合数 I](https://www.acwing.com/activity/content/code/content/9816007/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

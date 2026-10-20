@@ -4,6 +4,9 @@ const path = require('path');
 const root = process.cwd();
 const courses = JSON.parse(fs.readFileSync(path.join(root, 'planning', 'acwing-courses.json'), 'utf8'));
 const submissions = JSON.parse(fs.readFileSync(path.join(root, 'planning', 'acwing-submissions.json'), 'utf8'));
+const problemCodesPath = path.join(root, 'planning', 'acwing-problem-codes.json');
+const problemCodes = fs.existsSync(problemCodesPath) ? JSON.parse(fs.readFileSync(problemCodesPath, 'utf8')) : [];
+const problemCodeMap = new Map(problemCodes.map((item) => [String(item.problemId), item]));
 
 const categoryMeta = {
   sorting: { name: '排序', intro: '快速排序、归并排序与进阶排序问题。' },
@@ -162,6 +165,7 @@ const orderedCourses = [...courses].sort((a, b) => {
 });
 
 const targets = new Map();
+const problemTargetMap = new Map();
 const slugCounters = {};
 let runningOrder = 0;
 for (const chapter of orderedCourses) {
@@ -184,7 +188,10 @@ for (const chapter of orderedCourses) {
     const target = targets.get(key);
     target.groups.push({ course: chapter.course, chapter: chapter.chapter, name: group.groupName });
     for (const problem of group.problems) {
-      if (!target.problems.some((p) => p.problemId === problem.problemId)) target.problems.push(problem);
+      if (!target.problems.some((p) => p.problemId === problem.problemId)) {
+        target.problems.push(problem);
+        problemTargetMap.set(String(problem.problemId), target);
+      }
     }
     const sub = submissions.find((s) => s.course === chapter.course && s.chapter === chapter.chapter && s.group === group.groupName);
     if (sub) target.submissions.push(sub);
@@ -196,25 +203,27 @@ for (const item of standaloneTargets) {
   }
 }
 
-function renderProblemTable(problems) {
-  return ['| 题目 | 状态 |', '| --- | --- |', ...problems.map((p) => `| [${p.title}](${problemLink(p)}) | ${p.completed ? '已完成' : '未完成'} |`)].join('\n');
+function renderProblemTable(problems, category) {
+  return ['| 题目 | 状态 |', '| --- | --- |', ...problems.map((p) => `| [${p.title}](../problems/${category}/${p.problemId}.md) | ${p.completed ? '已完成' : '未完成'} |`)].join('\n');
 }
-function targetCode(target) { return target.submissions.map((s) => extractCode(s.raw)).find(Boolean) || ''; }
+function representativeCode(target) {
+  const records = target.problems.map((p) => problemCodeMap.get(String(p.problemId))).filter((r) => r?.code);
+  return records.find((r) => r.source === 'self') || records.find((r) => r.source === 'yxc') || null;
+}
+function targetCode(target) { return representativeCode(target)?.code || target.submissions.map((s) => extractCode(s.raw)).find(Boolean) || ''; }
 function renderTemplateSection(target) {
   const code = targetCode(target);
   if (!code) return '';
   return ['## 模板', '', '```cpp', code, '```', ''].join('\n');
 }
 function renderProblemSection(target) {
-  return ['## 题目', '', '**算法分组：** ' + groupNames(target), '', renderProblemTable(target.problems), ''].join('\n');
+  return ['## 题目', '', '**算法分组：** ' + groupNames(target), '', renderProblemTable(target.problems, target.category), ''].join('\n');
 }
 function renderSourceSection(target) {
-  const code = targetCode(target);
-  if (!code) return '';
-  const lines = ['## 提交来源', ''];
-  for (const s of target.submissions) lines.push(`- [${s.problem}](${codeLink(s.codeId)})`);
-  lines.push('');
-  return lines.join('\n');
+  const record = representativeCode(target);
+  if (!record) return '';
+  const label = record.source === 'self' ? '我的提交' : 'yxc 相关代码';
+  return ['## 提交来源', '', `- [${record.title}](${record.sourceUrl}) · ${label}`, ''].join('\n');
 }
 function insertAfterH1(content, section) {
   const lines = content.split('\n');
@@ -240,7 +249,7 @@ for (const target of targets.values()) {
     if (code) lines.push(renderTemplateSection(target));
     lines.push(`本页按算法归档，收录 ${target.problems.length} 道相关题目。`, '', '**算法分组：** ' + groupNames(target), '');
     if (!code) lines.push('提交记录中暂未找到该算法的代码，模板暂空。', '');
-    lines.push('## 对应题目', '', renderProblemTable(target.problems), '');
+    lines.push('## 对应题目', '', renderProblemTable(target.problems, target.category), '');
     if (code) lines.push(renderSourceSection(target));
     writeDoc(target.file, lines.join('\n'));
   } else if (target.problems.length) {
@@ -260,6 +269,24 @@ for (const target of targets.values()) {
     }
   }
 }
+for (const record of problemCodes) {
+  const target = problemTargetMap.get(String(record.problemId));
+  if (!target || !record.code) continue;
+  const file = `problems/${target.category}/${record.problemId}.md`;
+  const algorithmLink = `../../${target.category}/${path.basename(target.file)}`;
+  const sourceLabel = record.source === 'self' ? '我的提交' : 'yxc 相关代码';
+  const lines = [
+    '---', 'title: ' + yaml(record.title), 'description: ' + yaml(`所属算法：${target.title}`),
+    'tags:', '  - 题目', '  - ' + yaml(target.title), '---', '', '# ' + record.title, '',
+    '## 模板', '', '```cpp', record.code, '```', '',
+    `**所属算法：** [${target.title}](${algorithmLink})  `,
+    `**AcWing 原题：** [打开题目](${problemLink(record.problemId)})  `,
+    `**代码来源：** [${sourceLabel}](${record.sourceUrl})`,
+    ''
+  ];
+  writeDoc(file, lines.join('\n'));
+}
+
 const byCategory = {};
 for (const target of targets.values()) (byCategory[target.category] ||= []).push(target);
 for (const category of categoryOrder) {

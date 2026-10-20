@@ -76,7 +76,6 @@ int main()
 }
 ```
 
-枚举区间长度、起点和断点，把大区间拆成两个小区间合并，是区间 DP 的通用套路。
 
 ## 思路
 
@@ -104,15 +103,14 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 282. 石子合并](https://www.acwing.com/activity/content/problem/content/1007/) | 已完成 |
-| [AcWing 1068. 环形石子合并](https://www.acwing.com/activity/content/problem/content/1297/) | 已完成 |
-| [AcWing 320. 能量项链](https://www.acwing.com/activity/content/problem/content/1298/) | 已完成 |
-| [AcWing 479. 加分二叉树](https://www.acwing.com/activity/content/problem/content/1299/) | 已完成 |
-| [AcWing 1069. 凸多边形的划分](https://www.acwing.com/activity/content/problem/content/1300/) | 未完成 |
-| [AcWing 321. 棋盘分割](https://www.acwing.com/activity/content/problem/content/1301/) | 未完成 |
+| [AcWing 282. 石子合并](../problems/dp/1007.md) | 已完成 |
+| [AcWing 1068. 环形石子合并](../problems/dp/1297.md) | 已完成 |
+| [AcWing 320. 能量项链](../problems/dp/1298.md) | 已完成 |
+| [AcWing 479. 加分二叉树](../problems/dp/1299.md) | 已完成 |
+| [AcWing 1069. 凸多边形的划分](../problems/dp/1300.md) | 未完成 |
+| [AcWing 321. 棋盘分割](../problems/dp/1301.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 282. 石子合并](https://www.acwing.com/activity/content/code/content/9809361/)
-- [AcWing 1068. 环形石子合并](https://www.acwing.com/activity/content/code/content/9919296/)
+- [AcWing 282. 石子合并](https://www.acwing.com/activity/content/code/content/9809361/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

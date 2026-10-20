@@ -44,10 +44,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 801. 二进制中1的个数](https://www.acwing.com/activity/content/problem/content/835/) | 已完成 |
-| [AcWing 90. 64位整数乘法](https://www.acwing.com/activity/content/problem/content/1784/) | 已完成 |
+| [AcWing 801. 二进制中1的个数](../problems/basics/835.md) | 已完成 |
+| [AcWing 90. 64位整数乘法](../problems/basics/1784.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 801. 二进制中1的个数](https://www.acwing.com/activity/content/code/content/9837840/)
-- [AcWing 90. 64位整数乘法](https://www.acwing.com/activity/content/code/content/9899731/)
+- [AcWing 801. 二进制中1的个数](https://www.acwing.com/activity/content/code/content/9837840/) · 我的提交

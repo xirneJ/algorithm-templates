@@ -5,13 +5,19 @@ import path from 'node:path';
 const root = process.cwd();
 const read = (file) => fs.readFileSync(path.join(root, file), 'utf8');
 const courses = JSON.parse(read('planning/acwing-courses.json'));
-const groups = courses.flatMap((chapter) => chapter.groups.map((group) => group.groupName));
-const uniqueGroups = [...new Set(groups)];
 const categories = ['sorting', 'binary-search', 'basics', 'ds', 'string', 'search', 'graph', 'dp', 'math', 'greedy'];
-
-assert.equal(courses.length, 12, 'there should be 12 AcWing chapters');
-assert.equal(groups.length, 117, 'there should be 117 algorithm groups');
-assert.ok(uniqueGroups.length >= 100, 'most course groups should have distinct names');
+const problemMeta = new Map();
+for (const chapter of courses) {
+  for (const group of chapter.groups) {
+    for (const problem of group.problems) {
+      problemMeta.set(String(problem.problemId), { ...problem, course: chapter.course, chapter: chapter.chapter, group: group.groupName });
+    }
+  }
+}
+const completedCount = [...problemMeta.values()].filter((problem) => problem.completed).length;
+assert.equal(courses.length, 12, 'there should be 12 source chapters');
+assert.equal(problemMeta.size, 325, 'there should be 325 source problems');
+assert.equal(completedCount, 162, 'there should be 162 successful personal submissions');
 
 const config = read('mkdocs.yml');
 assert.doesNotMatch(config, /算法基础课|算法提高课/, 'course-based top-level navigation should be removed');
@@ -23,13 +29,8 @@ const docs = categories.flatMap((dir) =>
     .map((file) => ({ file: path.join('docs', dir, file), source: read(path.join('docs', dir, file)) })),
 );
 const all = docs.map((item) => item.source).join('\n');
-
-for (const group of uniqueGroups) {
-  assert.ok(all.includes(group), `algorithm category pages should contain ${group}`);
-}
-
-const codeIds = [...all.matchAll(/activity\/content\/code\/content\/(\d+)\//g)].map((match) => match[1]);
-assert.equal(new Set(codeIds).size, 64, 'there should be 64 unique submission links');
+const groups = [...new Set(courses.flatMap((chapter) => chapter.groups.map((group) => group.groupName)))];
+for (const group of groups) assert.ok(all.includes(group), `algorithm pages should contain ${group}`);
 
 const categoryChecks = {
   sorting: ['快速排序', '归并排序', '排序'],
@@ -44,11 +45,35 @@ const categoryChecks = {
   greedy: ['Huffman树', '排序不等式'],
 };
 for (const [dir, names] of Object.entries(categoryChecks)) {
-  const source = docs.filter((item) => path.dirname(item.file) === path.join('docs', dir)).map((item) => item.source).join('\\n');
-  for (const name of names) {
-    assert.ok(source.includes(name), `${dir} should contain ${name}`);
-  }
+  const source = docs.filter((item) => path.dirname(item.file) === path.join('docs', dir)).map((item) => item.source).join('\n');
+  for (const name of names) assert.ok(source.includes(name), `${dir} should contain ${name}`);
 }
 
-assert.ok(all.includes('提交记录中暂未找到'), 'blank templates should be explicitly marked');
-console.log(`PASS: ${uniqueGroups.length} algorithms classified into ${categories.length} algorithm categories; ${new Set(codeIds).size} submission sources linked`);
+const problemRoot = path.join(root, 'docs', 'problems');
+const problemFiles = fs.readdirSync(problemRoot, { recursive: true }).filter((file) => file.endsWith('.md'));
+assert.equal(problemFiles.length, 325, 'there should be 325 problem pages');
+let selfCount = 0;
+let yxcCount = 0;
+for (const relative of problemFiles) {
+  const source = read(path.join('docs', 'problems', relative));
+  const problemId = path.basename(relative, '.md');
+  const meta = problemMeta.get(problemId);
+  assert.ok(meta, `problem ${problemId} should exist in source data`);
+  assert.match(source, /^## 模板$/m, `${problemId} should contain a template section`);
+  assert.match(source, /```cpp/, `${problemId} should contain C++ code`);
+  assert.match(source, /AcWing 原题/, `${problemId} should link to the original problem`);
+  if (meta.completed) {
+    assert.match(source, /我的提交/, `${problemId} should use the personal submission`);
+    selfCount++;
+  } else {
+    assert.match(source, /yxc 相关代码/, `${problemId} should use yxc's related code`);
+    yxcCount++;
+  }
+}
+assert.equal(selfCount, 162, '162 problems should use personal submissions');
+assert.equal(yxcCount, 163, '163 problems should use yxc code');
+
+for (const doc of docs) {
+  if (doc.source.includes('## 题目')) assert.match(doc.source, /^## 模板$/m, `${doc.file} should have a template`);
+}
+console.log(`PASS: ${groups.length} algorithms, 325 problems, ${selfCount} personal codes, ${yxcCount} yxc codes`);

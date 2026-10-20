@@ -62,11 +62,11 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 1015. 摘花生](https://www.acwing.com/activity/content/problem/content/1256/) | 已完成 |
-| [AcWing 1018. 最低通行费](https://www.acwing.com/activity/content/problem/content/1257/) | 已完成 |
-| [AcWing 1027. 方格取数](https://www.acwing.com/activity/content/problem/content/1258/) | 已完成 |
-| [AcWing 275. 传纸条](https://www.acwing.com/activity/content/problem/content/1286/) | 已完成 |
+| [AcWing 1015. 摘花生](../problems/dp/1256.md) | 已完成 |
+| [AcWing 1018. 最低通行费](../problems/dp/1257.md) | 已完成 |
+| [AcWing 1027. 方格取数](../problems/dp/1258.md) | 已完成 |
+| [AcWing 275. 传纸条](../problems/dp/1286.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 1015. 摘花生](https://www.acwing.com/activity/content/code/content/9903070/)
+- [AcWing 1015. 摘花生](https://www.acwing.com/activity/content/code/content/9903070/) · 我的提交

@@ -49,7 +49,6 @@ int main()
 }
 ```
 
-前缀和把区间查询降到 O(1)，差分把区间修改降到 O(1)，两者互为逆运算。
 
 ## 思路
 
@@ -77,15 +76,14 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 795. 前缀和](https://www.acwing.com/activity/content/problem/content/829/) | 已完成 |
-| [AcWing 796. 子矩阵的和](https://www.acwing.com/activity/content/problem/content/830/) | 已完成 |
-| [AcWing 797. 差分](https://www.acwing.com/activity/content/problem/content/831/) | 已完成 |
-| [AcWing 798. 差分矩阵](https://www.acwing.com/activity/content/problem/content/832/) | 已完成 |
-| [AcWing 99. 激光炸弹](https://www.acwing.com/activity/content/problem/content/1788/) | 已完成 |
-| [AcWing 100. 增减序列](https://www.acwing.com/activity/content/problem/content/1789/) | 已完成 |
+| [AcWing 795. 前缀和](../problems/basics/829.md) | 已完成 |
+| [AcWing 796. 子矩阵的和](../problems/basics/830.md) | 已完成 |
+| [AcWing 797. 差分](../problems/basics/831.md) | 已完成 |
+| [AcWing 798. 差分矩阵](../problems/basics/832.md) | 已完成 |
+| [AcWing 99. 激光炸弹](../problems/basics/1788.md) | 已完成 |
+| [AcWing 100. 增减序列](../problems/basics/1789.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 795. 前缀和](https://www.acwing.com/activity/content/code/content/9837745/)
-- [AcWing 99. 激光炸弹](https://www.acwing.com/activity/content/code/content/9902689/)
+- [AcWing 795. 前缀和](https://www.acwing.com/activity/content/code/content/9837745/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

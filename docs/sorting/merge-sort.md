@@ -75,7 +75,6 @@ int main()
 }
 ```
 
-稳定排序，也可以顺手统计逆序对，是分治思想的代表。
 
 ## 思路
 
@@ -103,10 +102,10 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 787. 归并排序](https://www.acwing.com/activity/content/problem/content/821/) | 已完成 |
-| [AcWing 788. 逆序对的数量](https://www.acwing.com/activity/content/problem/content/822/) | 未完成 |
+| [AcWing 787. 归并排序](../problems/sorting/821.md) | 已完成 |
+| [AcWing 788. 逆序对的数量](../problems/sorting/822.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 787. 归并排序](https://www.acwing.com/activity/content/code/content/9839979/)
+- [AcWing 787. 归并排序](https://www.acwing.com/activity/content/code/content/9839979/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

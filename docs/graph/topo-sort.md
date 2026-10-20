@@ -95,7 +95,6 @@ int main()
 }
 ```
 
-对有向无环图求拓扑序，同时可以用来判断图中是否存在环。
 
 ## 思路
 
@@ -123,13 +122,13 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 848. 有向图的拓扑序列](https://www.acwing.com/activity/content/problem/content/911/) | 已完成 |
-| [AcWing 1191. 家谱树](https://www.acwing.com/activity/content/problem/content/1575/) | 未完成 |
-| [AcWing 1192. 奖金](https://www.acwing.com/activity/content/problem/content/1576/) | 未完成 |
-| [AcWing 164. 可达性统计](https://www.acwing.com/activity/content/problem/content/1577/) | 未完成 |
-| [AcWing 456. 车站分级](https://www.acwing.com/activity/content/problem/content/1578/) | 未完成 |
+| [AcWing 848. 有向图的拓扑序列](../problems/graph/911.md) | 已完成 |
+| [AcWing 1191. 家谱树](../problems/graph/1575.md) | 未完成 |
+| [AcWing 1192. 奖金](../problems/graph/1576.md) | 未完成 |
+| [AcWing 164. 可达性统计](../problems/graph/1577.md) | 未完成 |
+| [AcWing 456. 车站分级](../problems/graph/1578.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 848. 有向图的拓扑序列](https://www.acwing.com/activity/content/code/content/9809492/)
+- [AcWing 848. 有向图的拓扑序列](https://www.acwing.com/activity/content/code/content/9809492/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->

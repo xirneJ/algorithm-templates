@@ -69,11 +69,11 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 165. 小猫爬山](https://www.acwing.com/activity/content/problem/content/1485/) | 已完成 |
-| [AcWing 166. 数独](https://www.acwing.com/activity/content/problem/content/1486/) | 未完成 |
-| [AcWing 167. 木棒](https://www.acwing.com/activity/content/problem/content/1487/) | 未完成 |
-| [AcWing 168. 生日蛋糕](https://www.acwing.com/activity/content/problem/content/1488/) | 未完成 |
+| [AcWing 165. 小猫爬山](../problems/search/1485.md) | 已完成 |
+| [AcWing 166. 数独](../problems/search/1486.md) | 未完成 |
+| [AcWing 167. 木棒](../problems/search/1487.md) | 未完成 |
+| [AcWing 168. 生日蛋糕](../problems/search/1488.md) | 未完成 |
 
 ## 提交来源
 
-- [AcWing 165. 小猫爬山](https://www.acwing.com/activity/content/code/content/9864874/)
+- [AcWing 165. 小猫爬山](https://www.acwing.com/activity/content/code/content/9864874/) · 我的提交

@@ -11,3 +11,5 @@ Thumbs.db
 legacy/
 PROGRESS.md
 planning/acwing-submissions.json
+.edge-automation/
+planning/acwing-problem-codes.json

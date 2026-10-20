@@ -93,7 +93,6 @@ int main()
 }
 ```
 
-按边权从小到大加边，用并查集判环，适合稀疏图求最小生成树。
 
 ## 思路
 
@@ -121,9 +120,9 @@ int main()
 
 | 题目 | 状态 |
 | --- | --- |
-| [AcWing 859. Kruskal算法求最小生成树](https://www.acwing.com/activity/content/problem/content/925/) | 已完成 |
+| [AcWing 859. Kruskal算法求最小生成树](../problems/graph/925.md) | 已完成 |
 
 ## 提交来源
 
-- [AcWing 859. Kruskal算法求最小生成树](https://www.acwing.com/activity/content/code/content/9882506/)
+- [AcWing 859. Kruskal算法求最小生成树](https://www.acwing.com/activity/content/code/content/9882506/) · 我的提交
 <!-- ALGORITHM_SUBMISSION_END -->
