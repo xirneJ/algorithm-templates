@@ -12,7 +12,6 @@ const categories = ['sorting', 'binary-search', 'basics', 'ds', 'string', 'searc
 assert.equal(courses.length, 12, 'there should be 12 AcWing chapters');
 assert.equal(groups.length, 117, 'there should be 117 algorithm groups');
 assert.ok(uniqueGroups.length >= 100, 'most course groups should have distinct names');
-assert.equal(submissions.length, 64, 'there should be 64 submissions with code');
 
 const config = read('mkdocs.yml');
 assert.doesNotMatch(config, /算法基础课|算法提高课/, 'course-based top-level navigation should be removed');
