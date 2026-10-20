@@ -1,0 +1,13 @@
+.venv/
+.python-packages/
+site/
+__pycache__/
+*.py[cod]
+pip-*/
+legacy/pip-temp/
+.playwright-mcp/
+Thumbs.db
+.DS_Store
+legacy/
+PROGRESS.md
+planning/acwing-submissions.json

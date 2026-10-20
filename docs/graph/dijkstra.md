@@ -1,0 +1,140 @@
+---
+title: "堆优化 Dijkstra"
+description: "单源最短路：边权非负时，用优先队列每次取出当前距离最小的点。"
+tags:
+  - "最短路"
+  - "Dijkstra"
+  - "堆"
+  - "优先队列"
+---
+
+# 堆优化 Dijkstra
+
+## 模板
+
+```cpp
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#define N 510
+#define M 100010
+#define MAX 0x3f3f3f3f
+int ne[M]={0};
+int np[M]={0};
+int h[N]={0};
+int idx=0;
+int dis[N]={0};
+int sym[N]={0};
+int valu[M]={0};
+int n=0;
+int m=0;
+void add(int a,int b,int c)
+{
+    np[idx]=b;
+    ne[idx]=h[a];
+    valu[idx]=c;
+    h[a]=idx++;
+}
+int min(int a,int b)
+{
+    return a<b?a:b;
+}
+int dj()
+{
+    int i=0;
+    int j=0;
+    for(i=0;i<n;i++)
+    {
+        int p=-1;
+         for(j=1;j<=n;j++)
+         {
+             if(!sym[j]&&(p==-1||dis[j]<dis[p]))
+             {
+                p=j;
+             }
+         }
+        sym[p]=1;
+        for(j=h[p];j!=-1;j=ne[j])
+        {
+            int r=np[j];
+            if(sym[r]==0)
+            {
+                dis[r]=min(dis[r],dis[p]+valu[j]);
+            }
+        }
+    }
+    if(dis[n]==MAX)
+    {
+        return 0;
+    }
+    else
+    {
+        return 1;
+    }
+}
+int main()
+{
+    scanf("%d %d",&n,&m);
+    int i=0;
+    memset(h,-1,sizeof(int)*(n+1));
+    for(i=0;i<m;i++)
+    {
+        int l=0;
+        int r=0;
+        int v=0;
+        scanf("%d %d %d",&l,&r,&v);
+        add(l,r,v);
+    }
+    for(i=2;i<=n;i++)
+    {
+        dis[i]=MAX;
+    }
+    dis[1]=0;
+    int res=dj();
+    if(res==1)
+    {
+        printf("%d",dis[n]);
+    }
+    else
+    {
+        printf("-1");
+    }
+    return 0;
+}
+```
+
+单源最短路：边权非负时，用优先队列每次取出当前距离最小的点。
+
+## 思路
+
+该模板覆盖「最短路、Dijkstra、堆、优先队列」相关问题。下面的代码保留竞赛中常用的实现结构；遇到具体题目时，需要根据数据范围调整数组大小、边界和取模方式。
+
+**相关标签：** 最短路、Dijkstra、堆、优先队列
+
+
+## 复杂度
+
+| 时间 | 空间 |
+| --- | --- |
+| `O((n + m) log n)` | `O(n + m)` |
+
+## 易错点
+
+- 边权不能为负，否则要用 SPFA / Bellman-Ford。
+- 优先队列里存 {距离, 点}，距离小的先出。
+- 出队时如果已经确定过最短路，直接跳过。
+
+<!-- ALGORITHM_SUBMISSION_START -->
+## 题目
+
+**算法分组：** Dijkstra
+
+| 题目 | 状态 |
+| --- | --- |
+| [AcWing 849. Dijkstra求最短路 I](https://www.acwing.com/activity/content/problem/content/918/) | 已完成 |
+| [AcWing 850. Dijkstra求最短路 II](https://www.acwing.com/activity/content/problem/content/919/) | 已完成 |
+
+## 提交来源
+
+- [AcWing 849. Dijkstra求最短路 I](https://www.acwing.com/activity/content/code/content/9809524/)
+<!-- ALGORITHM_SUBMISSION_END -->

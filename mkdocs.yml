@@ -1,0 +1,201 @@
+site_name: 算法模板库
+site_description: 常用算法竞赛模板速查
+site_author: 算法模板库
+site_url: https://xirnej.github.io/algorithm-templates/
+copyright: 算法模板库 · 常用算法竞赛模板速查
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+theme:
+  name: material
+  language: zh
+  favicon: assets/favicon.svg
+  font:
+    text: Fira Sans
+    code: Fira Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - toc.follow
+
+plugins:
+  - search:
+      lang: zh
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - 简介: index.md
+  - 排序:
+      - 概览: sorting/index.md
+      - 快速排序: sorting/quick-sort.md
+      - 归并排序: sorting/merge-sort.md
+      - 排序: sorting/sorting-advanced.md
+  - 二分:
+      - 概览: binary-search/index.md
+      - 整数二分: binary-search/binary-search.md
+  - 基础算法:
+      - 概览: basics/index.md
+      - 高精度: basics/algorithm-01.md
+      - 前缀和与差分: basics/prefix-diff.md
+      - 双指针算法: basics/algorithm-02.md
+      - 位运算: basics/algorithm-03.md
+      - 离散化: basics/discretization.md
+      - 区间合并: basics/algorithm-04.md
+      - 递推与递归: basics/algorithm-05.md
+  - 数据结构:
+      - 概览: ds/index.md
+      - 单链表: ds/algorithm-01.md
+      - 双链表: ds/algorithm-02.md
+      - 栈: ds/algorithm-03.md
+      - 队列: ds/algorithm-04.md
+      - 单调栈: ds/algorithm-05.md
+      - 单调队列: ds/monotonic-queue.md
+      - 并查集: ds/dsu.md
+      - 堆: ds/algorithm-06.md
+      - 哈希表: ds/algorithm-07.md
+      - 树状数组: ds/fenwick.md
+      - 线段树: ds/segment-tree.md
+      - 可持久化数据结构: ds/algorithm-08.md
+      - 平衡树: ds/algorithm-09.md
+      - ST 表（RMQ）: ds/st-table.md
+  - 字符串:
+      - 概览: string/index.md
+      - KMP 字符串匹配: string/kmp.md
+      - Trie 字典树: string/trie.md
+      - AC 自动机: string/ac-automaton.md
+      - 字符串哈希: string/string-hash.md
+      - Manacher 回文串: string/manacher.md
+  - 搜索:
+      - 概览: search/index.md
+      - DFS: search/algorithm-01.md
+      - BFS: search/algorithm-02.md
+      - 树与图的深度优先遍历: search/algorithm-03.md
+      - 树与图的广度优先遍历: search/algorithm-04.md
+      - Flood Fill: search/algorithm-05.md
+      - 最短路模型: search/algorithm-06.md
+      - 多源BFS: search/algorithm-07.md
+      - 最小步数模型: search/algorithm-08.md
+      - 双端队列广搜: search/algorithm-09.md
+      - 双向广搜: search/algorithm-10.md
+      - A*: search/algorithm-11.md
+      - DFS之连通性模型: search/algorithm-12.md
+      - DFS之搜索顺序: search/algorithm-13.md
+      - DFS之剪枝与优化: search/algorithm-14.md
+      - 迭代加深: search/algorithm-15.md
+      - 双向DFS: search/algorithm-16.md
+      - IDA*: search/algorithm-17.md
+  - 图论:
+      - 概览: graph/index.md
+      - 拓扑排序: graph/topo-sort.md
+      - 堆优化 Dijkstra: graph/dijkstra.md
+      - bellman-ford: graph/algorithm-01.md
+      - spfa: graph/algorithm-02.md
+      - Floyd 多源最短路: graph/floyd.md
+      - Prim: graph/algorithm-03.md
+      - Kruskal 最小生成树: graph/kruskal.md
+      - 染色法判定二分图: graph/algorithm-04.md
+      - 匈牙利算法（二分图匹配）: graph/hungarian.md
+      - 单源最短路的建图方式: graph/algorithm-05.md
+      - 单源最短路的综合应用: graph/algorithm-06.md
+      - 单源最短路的扩展应用: graph/algorithm-07.md
+      - 最小生成树: graph/algorithm-08.md
+      - 最小生成树的扩展应用: graph/algorithm-09.md
+      - 负环: graph/algorithm-10.md
+      - 差分约束: graph/algorithm-11.md
+      - 最近公共祖先（LCA）: graph/lca.md
+      - 强连通分量（Tarjan）: graph/tarjan-scc.md
+      - 无向图的双连通分量: graph/algorithm-12.md
+      - 二分图: graph/algorithm-13.md
+      - 欧拉回路和欧拉路径: graph/algorithm-14.md
+      - 链式前向星: graph/adjacency-list.md
+  - 动态规划:
+      - 概览: dp/index.md
+      - 背包问题: dp/knapsack.md
+      - 线性 DP: dp/linear-dp.md
+      - 区间 DP: dp/interval-dp.md
+      - 计数类 DP: dp/counting-dp.md
+      - 数位 DP: dp/digit-dp.md
+      - 状态压缩 DP: dp/state-compression-dp.md
+      - 树形 DP: dp/tree-dp.md
+      - 记忆化搜索: dp/memoized-search.md
+      - 数字三角形模型: dp/digit-triangle.md
+      - 最长上升子序列（LIS）: dp/lis.md
+      - 状态机 DP: dp/state-machine-dp.md
+      - 单调队列优化 DP: dp/monotonic-queue-dp.md
+      - 斜率优化 DP: dp/slope-optimization-dp.md
+      - 01 背包: dp/knapsack-01.md
+      - 完全背包: dp/knapsack-complete.md
+  - 数学:
+      - 概览: math/index.md
+      - 线性筛素数: math/linear-sieve.md
+      - 约数: math/algorithm-01.md
+      - 欧拉函数: math/algorithm-02.md
+      - 快速幂: math/fast-power.md
+      - 扩展欧几里得: math/exgcd.md
+      - 中国剩余定理: math/algorithm-03.md
+      - 高斯消元: math/algorithm-04.md
+      - 组合数: math/combinations.md
+      - 容斥原理: math/algorithm-05.md
+      - 博弈论: math/algorithm-06.md
+      - 分解质因数: math/algorithm-07.md
+      - 约数个数: math/algorithm-08.md
+      - 同余: math/algorithm-09.md
+      - 矩阵乘法: math/matrix-multiplication.md
+      - 组合计数: math/combinatorics.md
+      - 概率与数学期望: math/algorithm-10.md
+      - 矩阵快速幂: math/matrix-power.md
+  - 贪心:
+      - 概览: greedy/index.md
+      - 区间问题: greedy/algorithm-01.md
+      - Huffman树: greedy/algorithm-02.md
+      - 排序不等式: greedy/algorithm-03.md
+      - 绝对值不等式: greedy/algorithm-04.md
+      - 推公式: greedy/algorithm-05.md
