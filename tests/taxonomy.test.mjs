@@ -5,7 +5,6 @@ import path from 'node:path';
 const root = process.cwd();
 const read = (file) => fs.readFileSync(path.join(root, file), 'utf8');
 const courses = JSON.parse(read('planning/acwing-courses.json'));
-const submissions = JSON.parse(read('planning/acwing-submissions.json'));
 const groups = courses.flatMap((chapter) => chapter.groups.map((group) => group.groupName));
 const uniqueGroups = [...new Set(groups)];
 const categories = ['sorting', 'binary-search', 'basics', 'ds', 'string', 'search', 'graph', 'dp', 'math', 'greedy'];
