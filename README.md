@@ -2,6 +2,10 @@
 
 一个基于 **MkDocs Material** 的算法竞赛模板速查站。页面布局、字体、配色和三栏文档结构与 [OI Wiki 动态规划页面](https://oi-wiki.org/dp/) 保持同一套视觉体系。
 
+## 在线网站
+
+- 网站：<https://xirnej.github.io/algorithm-templates/>
+- 仓库：<https://github.com/xirneJ/algorithm-templates>
 ![算法分类首页](preview-dp.png)
 
 当前包含 10 个算法分类、106 个算法页面。内容由 32 个通用模板，以及 AcWing 算法基础课、算法提高课中的题目按算法重新归并而成。
@@ -53,6 +57,18 @@ python -m mkdocs serve
 2. `node tests/site.test.mjs`
 3. `node tests/taxonomy.test.mjs`
 
+## 自动部署
+
+推送到 `main` 分支后，GitHub Actions 会自动执行：
+
+1. 安装 `requirements.txt` 中的依赖
+2. 执行 `mkdocs build --strict`
+3. 运行站点与分类测试
+4. 发布 `site/` 到 GitHub Pages
+
+工作流文件：`.github/workflows/deploy-pages.yml`
+
+公开仓库不包含 `PROGRESS.md` 和 `planning/acwing-submissions.json`，这些本地交接与原始提交数据仅保留在本机。
 ## 技术栈
 
 - MkDocs 1.6.1
